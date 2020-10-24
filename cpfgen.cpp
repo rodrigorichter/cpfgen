@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
+#include <time.h>
 
 // code taken from https://www.vivaolinux.com.br/script/Gerador-de-CPF-em-C++/ at 22/08/2020 and modified
 std::string cpfgen () {
@@ -44,7 +45,6 @@ std::string cpfgen () {
         dv2 = 11 - (total % 11);
     }
 
-    res+='-';
     res+='0'+dv1;
     res+='0'+dv2;
     res+='\n';
