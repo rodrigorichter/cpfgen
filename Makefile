@@ -1,4 +1,4 @@
 CC=g++
 
 install: cpfgen.cpp
-	${CC} -o ${PREFIX}/cpfgen cpfgen.cpp
+	${CC} -o ${PREFIX}/bin/cpfgen cpfgen.cpp
